@@ -1,7 +1,7 @@
 name: Issue details
 on: issues
 jobs:
-  lint:
+  issue-info:
     runs-on: ubuntu-latest
     steps:
       - name: Get Details
